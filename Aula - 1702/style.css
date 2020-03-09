@@ -1,0 +1,52 @@
+p{
+    font-size: 20px;
+    color: brown;
+}
+
+h4{
+    color:red; 
+}
+
+body{
+    background-color: tan;
+}
+
+a:link{
+    color: white;
+    font-size:80px;
+    text-decoration: none;
+}
+/*
+- hover
+- active
+- link 
+- visited
+*/
+
+a:hover{
+    color: chartreuse;
+}
+
+a:visited{
+    color:deeppink;
+}
+
+.imagem{
+    margin:0 auto;
+    width: 450px;
+    border-color: black;
+    border-style: dotted;
+    border-width: 3px;
+    padding: 3px;
+}
+
+.imagem img{
+    width:100%;
+    height:auto;
+}
+
+
+
+
+
+

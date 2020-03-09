@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Elementos de um formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name='description' content="Este é um guia para formulários">
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Campos do tipo input</legend>
+                <label for='login'>Login:</label> <input type=text name='login' id='login'>
+                <label for='senha'>Senha:</label> <input type=password name='senha' id='senha'>
+                <label for='dataNascimento'>Data de nascimento:</label> <input type="datetime-local" name='dataNascimento' id='dataNascimento'>
+                <label for='email'>E-mail:</label> <input type="email" name='email' id='email'>
+            </fieldset>
+            <fieldset>
+                <legend>Campo do tipo select</legend>
+                <label for='disciplinas'>Disciplinas:</label>
+                <select id='disciplinas' name='disciplinas'>
+                    <option value='Prog3'>Programação 3</option>
+                    <option value='BD'>Banco de Dados</option>
+                    <option value='Analise'>Análise e Projeto de Sistemas</option>
+                </select>
+            </fieldset>
+            <input type='button' name='botao' value='Enviar'>
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
